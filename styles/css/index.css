@@ -1,0 +1,70 @@
+@charset "UTF-8";
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+body p {
+  margin: 0;
+  padding: 0;
+}
+body a {
+  text-decoration: none;
+}
+body .container {
+  width: 100%;
+  margin: 0 "auto";
+}
+
+@media screen and (min-width: 1920px) {
+  .header {
+    color: #ffffff;
+  }
+  .header-up {
+    display: flex;
+    flex-direction: row;
+    background: black;
+  }
+  .header-up__phone {
+    justify-content: flex-start;
+    align-items: center;
+    margin: 17px 0px 17px 300px;
+  }
+  .header-up__phone .header-up__phone-svg {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  .header-up__email {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 17px 0px 17px 28px;
+  }
+  .header-up__email .header-up__email-svg {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  .header-up__booked_phone {
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #4F8FF0;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+  }
+  .header-down {
+    background: rgba(1, 1, 1, 0.76);
+    background-image: url("C:/Users/vklus/Рабочий стол/projects/education/-V/adaptive/images/images0.png");
+  }
+}/*# sourceMappingURL=index.css.map */
